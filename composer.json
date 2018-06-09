@@ -1,0 +1,20 @@
+{
+    "name": "contialessandro/oopnonce",
+    "description": "OOP nonce method from wordress",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alessandro conti",
+            "email": "contialessandro@hotmail.it"
+        }
+    ],
+    "require": {
+        "php": ">=7.1."
+    },
+    "autoload": {
+        "psr-0": {
+            "OopNonce": "src/"
+        }
+    }
+}
