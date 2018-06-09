@@ -1,11 +1,11 @@
 {
     "name": "contialessandro/oopnonce",
-    "description": "OOP nonce method from wordress",
+    "description": "Object Oriented library for Wordpress wp_nonce_*() methods",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "alessandro conti",
+            "name": "Alessandro Conti",
             "email": "contialessandro@hotmail.it"
         }
     ],
