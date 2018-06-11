@@ -3,5 +3,5 @@ require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Compos
 
 use OopNonce\Nonce;
 
-$echo = new Nonce();
-echo $echo->printText('Hello').PHP_EOL;
+$echo = new Nonce(86400);
+return print_r($echo->setNonce());
