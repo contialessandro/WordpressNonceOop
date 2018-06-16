@@ -1,4 +1,5 @@
 # Wordpress Object Oriented library for wp_nonce_*();
 
-[![Coverage Status](https://coveralls.io/repos/github/contialessandro/WordpressNonceOop/badge.svg?branch=master)](https://coveralls.io/github/contialessandro/WordpressNonceOop?branch=master)
-
+###Class Nonce will generate a new nonce
+###Class ConfigSetters will set config property to be used in Nonce.php
+###Class Validation will validate the  original nonce.
