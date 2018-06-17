@@ -12,6 +12,7 @@ use AlessandroConti\Nonces\Nonce;
 
 
 class Validation {
+
 	public $userId;
 	public $token;
 	public $salt;
