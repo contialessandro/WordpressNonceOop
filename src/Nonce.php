@@ -18,27 +18,35 @@ class Nonce {
 	protected $alg = 'md5';
 	protected $userId;
 	protected $token;
-
+	/**
+	 * constructor For generating Nonce
+	 *
+	 * @param  int  $lengthInSeconds nonce validity
+	 * @param object $config ConfigSetter object
+	 * @access public
+	 */
 	public function __construct($lengthInSeconds, ConfigSetter $config = null){
-		$config = New ConfigSetter();
-//		$this->userId = $config->getUserID();
-//		$this->token = $config->getSession();
 		$this->salt = $config->getSalt();
 		$this->alg = $config->getAlgorithm();
 		$this->validationLength = $config->getLife();
-		/*for testing pass bin2hex of random 10 bytes*/
-		//		$this->salt = bin2hex(random_bytes(10));
 	}
 
+	/**
+	 * get Salt from Config.
+	 *
+	 * @return salt from Config
+	 */
 	public function getSalt(){
 		return $this->salt;
 	}
+
+	/**
+	 * get Salt from Config
+	 *
+	 * @return new nonce
+	 */
 	public function generateNonce(){
 		$this->nonce = crypt($this->input, $this->salt);
 		return $this->nonce;
-	}
-
-	public function printText($text=1){
-		return [$this->salt, $this->validationLength];
 	}
 }

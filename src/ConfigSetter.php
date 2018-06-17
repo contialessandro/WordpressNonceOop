@@ -15,16 +15,15 @@ class ConfigSetter {
 	public $userId;
 	public $token;
 
-	/*
-	 * salt
-	 * time
-	 * userid
-	 * token
-	 * algorithm*/
-
-
-
-
+	/**
+	 * setter for userId
+	 *
+	 * @param  string  $userId
+	 *
+	 * @access public
+	 *
+	 * return set $userId
+	 */
 	public function setUserID($userId){
 		return $this->userId = $userId;
 	}
@@ -32,7 +31,15 @@ class ConfigSetter {
 		return $this->userId;
 	}
 
-
+	/**
+	 * setter for session
+	 *
+	 * @param  string  $session
+	 *
+	 * @access public
+	 *
+	 * return set $session
+	 */
 	public function setSession($token){
 		return $this->token = $token;
 	}
@@ -40,7 +47,15 @@ class ConfigSetter {
 		return $this->token;
 	}
 
-
+	/**
+	 * setter for Salt
+	 *
+	 * @param  string  $salt
+	 *
+	 * @access public
+	 *
+	 * return set $salt
+	 */
 	public function setSalt($salt=''){
 		/*if salt is n ot passed use hex of 10 random_bytes()*/
 		if(empty($salt))
@@ -54,7 +69,15 @@ class ConfigSetter {
 		return $this->salt;
 	}
 
-
+	/**
+	 * setter for Life
+	 *
+	 * @param  integer  $timeValidator
+	 *
+	 * @access public
+	 *
+	 * return set $validatonLength
+	 */
 	public function setLife($timeValidator){
 		return $this->validationLength = $timeValidator;
 	}
@@ -62,6 +85,15 @@ class ConfigSetter {
 		return $this->validationLength;
 	}
 
+	/**
+	 * setter for algorithm
+	 *
+	 * @param  string  $alg
+	 *
+	 * @access public
+	 *
+	 * return set $alg
+	 */
 	public function setAlgorithm($alg){
 		return $this->alg = $alg;
 	}
