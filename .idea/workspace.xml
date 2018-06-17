@@ -361,6 +361,7 @@
         <item itemvalue="PHPUnit.ConfigSetterTest" />
         <item itemvalue="PHP Script.Nonce.php" />
         <item itemvalue="PHP Script.bootstrap.php" />
+        <item itemvalue="PHP Script.test.php" />
       </list>
     </recent_temporary>
   </component>
