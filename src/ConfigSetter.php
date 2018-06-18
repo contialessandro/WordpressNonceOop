@@ -5,7 +5,7 @@
  * Date: 16/06/2018
  * Time: 11:51
  */
-namespace AlessandroConti\Nonces;
+namespace Nonces;
 
 class ConfigSetter {
 

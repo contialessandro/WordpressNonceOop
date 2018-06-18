@@ -5,8 +5,8 @@
  * Date: 09/06/2018
  * Time: 19:09
  */
-namespace AlessandroConti\Nonces;
-use AlessandroConti\Nonces\ConfigSetter;
+namespace Nonces;
+use Nonces\ConfigSetter;
 class Nonce {
 
 

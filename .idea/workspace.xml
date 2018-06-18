@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd12170a-8740-461e-9369-7f53c5ca49b4" name="Default" comment="ignore files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oopnonce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oopnonce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConfigSetter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfigSetter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nonce.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nonce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/NonceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/NonceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <executablePath>composer</executablePath>
   </component>
@@ -37,25 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Nonce.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Nonce.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Nonce.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="30">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Validation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-              <folding>
-                <element signature="e#121#161#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,17 +50,17 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -82,13 +68,35 @@
       <file leaf-file-name="ConfigSetter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConfigSetter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonceTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/NonceTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <folding>
+                <element signature="e#105#118#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,20 +111,22 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_8.php" />
         <option value="$PROJECT_DIR$/tests/testNonce.php" />
         <option value="$PROJECT_DIR$/tests/Nonce.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/tests/NonceTest.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/src/tets.php" />
         <option value="$PROJECT_DIR$/src/test.php" />
-        <option value="$PROJECT_DIR$/tests/test.php" />
         <option value="$PROJECT_DIR$/tests/ConfigSetterTest.php" />
         <option value="$PROJECT_DIR$/tests/bootstrap.php" />
-        <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/src/Validation.php" />
-        <option value="$PROJECT_DIR$/src/Nonce.php" />
-        <option value="$PROJECT_DIR$/src/ConfigSetter.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/tests/test.php" />
+        <option value="$PROJECT_DIR$/config.xml.xsl" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/bootstrap.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/tests/NonceTest.php" />
+        <option value="$PROJECT_DIR$/src/ConfigSetter.php" />
+        <option value="$PROJECT_DIR$/src/Nonce.php" />
       </list>
     </option>
   </component>
@@ -133,7 +143,51 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Remote PHP 7.1" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/php-coveralls/php-coveralls" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/guzzle/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -284,18 +338,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="oopnonce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oopnonce" type="462c0819:PsiDirectoryNode" />
+              <item name="nonce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nonce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="oopnonce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oopnonce" type="462c0819:PsiDirectoryNode" />
+              <item name="nonce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nonce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oopnonce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oopnonce" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +357,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -333,16 +383,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.Remote 7.1">
     <configuration name="ConfigSetterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Test\ConfigSetterTest" file="$PROJECT_DIR$/tests/ConfigSetterTest.php" scope="Class" />
     </configuration>
     <configuration name="Remote 7.1" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" directory="$PROJECT_DIR$" />
     </configuration>
     <configuration name="NonceTest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/tests/NonceTest.php">
-      <CommandLine workingDirectory="$PROJECT_DIR$/tests" />
-      <option name="workingDirectory" value="F:\Code\oopnonce\tests" />
+      <CommandLine workingDirectory="$PROJECT_DIR$" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Nonce.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/Nonce.php" scriptParameters="86000" />
     <configuration name="bootstrap.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/bootstrap.php" />
@@ -352,13 +402,13 @@
       <item itemvalue="PHPUnit.Remote 7.1" />
       <item itemvalue="PHP Script.bootstrap.php" />
       <item itemvalue="PHP Script.Nonce.php" />
-      <item itemvalue="PHPUnit.ConfigSetterTest" />
       <item itemvalue="PHP Script.test.php" />
+      <item itemvalue="PHPUnit.ConfigSetterTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHPUnit.ConfigSetterTest" />
+        <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHP Script.Nonce.php" />
         <item itemvalue="PHP Script.bootstrap.php" />
       </list>
@@ -387,6 +437,7 @@
       <workItem from="1529150282576" duration="2324000" />
       <workItem from="1529152652537" duration="15006000" />
       <workItem from="1529240919310" duration="10168000" />
+      <workItem from="1529278395017" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="update description">
       <created>1528569514287</created>
@@ -483,66 +534,66 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Local - 2018.06.16 at 19h 34m 16s.xml">
-      <configuration name="Local" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Remote_7_1 - 2018.06.16 at 19h 34m 47s.xml">
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 23m 31s.xml">
       <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Remote_7_1 - 2018.06.16 at 19h 35m 20s.xml">
-      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Remote_7_1 - 2018.06.16 at 19h 35m 45s.xml">
-      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Remote_7_1 - 2018.06.16 at 19h 38m 28s.xml">
-      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Remote_7_1 - 2018.06.16 at 19h 38m 52s.xml">
-      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Remote_7_1 - 2018.06.16 at 19h 39m 31s.xml">
-      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Remote_7_1 - 2018.06.16 at 19h 40m 12s.xml">
-      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ConfigSetterTest - 2018.06.16 at 19h 40m 23s.xml">
+    <history-entry file="ConfigSetterTest - 2018.06.18 at 07h 25m 34s.xml">
       <configuration name="ConfigSetterTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ConfigSetterTest - 2018.06.16 at 19h 41m 19s.xml">
-      <configuration name="ConfigSetterTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 30m 56s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 33m 36s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 36m 39s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 46m 54s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 47m 56s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 50m 06s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 51m 25s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Remote_7_1 - 2018.06.18 at 07h 54m 34s.xml">
+      <configuration name="Remote 7.1" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50975000" />
+    <option name="totallyTimeSpent" value="54940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
+    <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22386831" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500817" side_tool="true" weight="0.7800338" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32914287" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26024362" />
-      <window_info anchor="bottom" x="896" y="397" width="837" height="383" id="Run" order="2" sideWeight="0.499183" weight="0.32890365" />
-      <window_info anchor="bottom" x="44" y="277" width="1312" height="326" id="Terminal" order="9" sideWeight="0.499183" weight="0.551495" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108938545" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" x="896" y="397" width="837" height="383" id="Run" order="2" sideWeight="0.499183" visible="true" weight="0.38074714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" x="44" y="277" width="1312" height="326" id="Terminal" order="9" sideWeight="0.499183" weight="0.53304595" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32914287" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32914287" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32960895" />
     </layout>
   </component>
@@ -567,30 +618,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="phpunit test config" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/NonceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="40">
-            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -608,41 +635,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dropForeignKey.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/dropForeignKey.html" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_1.php" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_5.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_3.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_2.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_5.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_4.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_3.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_7.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_8.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_9.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.blade_10.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.boringignore" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ini" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.sql" />
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-671">
@@ -716,55 +725,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/PHP/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="903" selection-start-line="903" selection-end-line="903" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/NonceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/PHP/php.ini" />
+    <entry file="file://$PROJECT_DIR$/src/test.php" />
+    <entry file="file://$PROJECT_DIR$/phpunit.xml" />
     <entry file="file://$PROJECT_DIR$/tests/ConfigSetterTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -790,20 +753,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Nonce.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfigSetter.php">
+    <entry file="file:///usr/share/php/PHPUnit/Util/Log/TeamCity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        <state relative-caret-position="89">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/share/snmp/mibs/UCD-SNMP-MIB.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26447">
+          <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -817,10 +798,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/NonceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#105#118#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConfigSetter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Nonce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
