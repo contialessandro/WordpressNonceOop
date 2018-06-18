@@ -5,10 +5,9 @@
  * Date: 09/06/2018
  * Time: 19:09
  */
-
+namespace Nonces;
 use Nonces\ConfigSetter;
-
-class Nonce {
+class Non {
 
 
 	protected $nonce;
@@ -50,5 +49,8 @@ class Nonce {
 	public function generateNonce(){
 		$this->nonce = crypt($this->input, $this->salt);
 		return $this->nonce;
+	}
+	public function printText($text=1){
+		return ['salt'=>$this->salt, 'time'=>$this->validationLength];
 	}
 }

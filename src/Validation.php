@@ -8,7 +8,7 @@
 
 namespace Nonce;
 use Nonces\ConfigSetter;
-use Nonces\Nonce;
+use Nonces\Non;
 
 
 class Validation {
