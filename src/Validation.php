@@ -6,9 +6,9 @@
  * Time: 17:04
  */
 
-namespace AlessandroConti\Nonce;
-use AlessandroConti\Nonces\ConfigSetter;
-use AlessandroConti\Nonces\Nonce;
+namespace Nonce;
+use Nonces\ConfigSetter;
+use Nonces\Nonce;
 
 
 class Validation {

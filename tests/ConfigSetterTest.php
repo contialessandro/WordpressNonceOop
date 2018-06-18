@@ -5,19 +5,19 @@
  * Date: 16/06/2018
  * Time: 13:49
  */
-namespace Test;
-
-use AlessandroConti\Nonce;
 use PHPUnit\Framework\TestCase;
+
+require __DIR__ . "/../src/ConfigSetter.php";
 
 class ConfigSetterTest extends TestCase {
 
 	public function testGetUserID() {
-		$a = new \ConfigSetter();
+		$a = new \Nonces\ConfigSetter();
 		var_dump($a);
 	}
 
 	public function testGetSession() {
-
+		echo "d";
+		$this->assertSame('d','d');
 	}
 }

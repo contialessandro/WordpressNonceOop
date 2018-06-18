@@ -5,8 +5,9 @@
  * Date: 09/06/2018
  * Time: 19:09
  */
-namespace Nonces;
+
 use Nonces\ConfigSetter;
+
 class Nonce {
 
 
@@ -25,8 +26,9 @@ class Nonce {
 	 * @param object $config ConfigSetter object
 	 * @access public
 	 */
-	public function __construct($lengthInSeconds, ConfigSetter $config = null){
-		$this->salt = $config->getSalt();
+	public function __construct($lengthInSeconds/*, ConfigSetter $config = null*/){
+		$config = new ConfigSetter();
+		$this->salt = $config->setSalt();
 		$this->alg = $config->getAlgorithm();
 		$this->validationLength = $config->getLife();
 	}

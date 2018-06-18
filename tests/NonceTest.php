@@ -5,13 +5,14 @@
  * Date: 16/06/2018
  * Time: 16:00
  */
-namespace tests;
 use PHPUnit\Framework\TestCase;
-;
+
+require __DIR__ . "/../src/Nonce.php";
+
 class NonceTest extends TestCase {
 
 	public function testGetUserID() {
-		$a = new \Nonces\Nonce(86400);
+		$a = new Nonce(86400);
 		var_dump($a);
 	}
 
