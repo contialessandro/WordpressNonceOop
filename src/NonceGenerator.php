@@ -119,12 +119,24 @@ class NonceGenerator {
 		return$this->input;
 	}
 
-
+	/*Generate Nonce with set Input and Salt
+	* Generate Nonce
+	 *
+	 * @return bool|int
+	 * */
 	public function generateNonce(){
 		$this->nonce = crypt($this->input, $this->salt);
 		return $this->nonce;
 	}
 
+	/**
+	 * Compare and validate set nonce
+	 * @param $input
+	 * @param $nonce
+	 *
+	 * @return bool|int
+	 *
+	 */
 	public function compare($input,$nonce){
 		/*compare original nonce to the one passed from the form*/
 		$this->input = $input;
