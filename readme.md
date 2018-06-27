@@ -3,11 +3,12 @@ Orignal library can be found at: https://codex.wordpress.org/WordPress_Nonces
 
 set configuration with the below methods
 ```
-			'setLifespan'     => self::$config->getLife(),
-			'setAlgorithm'    => self::$config->getAlgorithm(),
-			'setSalt'         => self::$config->setSalt(),
-			'setSessionToken' => self::$config->getSession(),
-			'setUserId'       => self::$config->getUserId(),
+            $config = new \Nonces\NonceGenerator();
+			$config->getLife(),
+			$config->getAlgorithm(),
+			$config->setSalt(),
+			$config->getSession(),
+			$config->getUserId(),
 			
 ```
 
