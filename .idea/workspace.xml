@@ -371,34 +371,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ConfigSetterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Test\ConfigSetterTest" file="$PROJECT_DIR$/tests/ConfigSetterTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.NonceGeneratorTest.testValidation">
+    <configuration name="NonceGeneratorTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="NonceGeneratorTest" file="$PROJECT_DIR$/tests/NonceGeneratorTest.php" scope="Class" />
+    </configuration>
+    <configuration name="NonceGeneratorTest.testClass" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="NonceGeneratorTest" file="$PROJECT_DIR$/tests/NonceGeneratorTest.php" method="testClass" scope="Method" />
     </configuration>
     <configuration name="NonceGeneratorTest.testValidation" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="NonceGeneratorTest" file="$PROJECT_DIR$/tests/NonceGeneratorTest.php" method="testValidation" scope="Method" />
     </configuration>
+    <configuration name="NonceTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="NonceTest" directory="$PROJECT_DIR$/tests" file="$PROJECT_DIR$/tests/NonceTest.php" />
+    </configuration>
+    <configuration name="NonceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="NonceTest" file="$PROJECT_DIR$/tests/NonceTest.php" scope="Class" />
+    </configuration>
     <configuration name="Remote 7.1" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
     </configuration>
-    <configuration name="Nonce.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/Nonce.php" scriptParameters="86000" />
-    <configuration name="bootstrap.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/bootstrap.php" />
-    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/test.php" />
     <list>
       <item itemvalue="PHPUnit.Remote 7.1" />
+      <item itemvalue="PHPUnit.NonceTest (1)" />
+      <item itemvalue="PHPUnit.NonceTest" />
+      <item itemvalue="PHPUnit.NonceGeneratorTest" />
+      <item itemvalue="PHPUnit.NonceGeneratorTest.testClass" />
       <item itemvalue="PHPUnit.NonceGeneratorTest.testValidation" />
-      <item itemvalue="PHP Script.bootstrap.php" />
-      <item itemvalue="PHP Script.Nonce.php" />
-      <item itemvalue="PHPUnit.ConfigSetterTest" />
-      <item itemvalue="PHP Script.test.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.test.php" />
-        <item itemvalue="PHPUnit.ConfigSetterTest" />
-        <item itemvalue="PHP Script.Nonce.php" />
-        <item itemvalue="PHP Script.bootstrap.php" />
         <item itemvalue="PHPUnit.NonceGeneratorTest.testValidation" />
+        <item itemvalue="PHPUnit.NonceGeneratorTest.testClass" />
+        <item itemvalue="PHPUnit.NonceGeneratorTest" />
+        <item itemvalue="PHPUnit.NonceTest" />
+        <item itemvalue="PHPUnit.NonceTest (1)" />
       </list>
     </recent_temporary>
   </component>
